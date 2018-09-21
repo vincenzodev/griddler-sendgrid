@@ -17,6 +17,7 @@ module Griddler
           bcc: get_bcc,
           attachments: attachment_files,
           charsets: charsets,
+          content_ids: params[:'content-ids'],
           spam_report: {
             report: params[:spam_report],
             score: params[:spam_score],
